@@ -1,6 +1,8 @@
 <div id="_yDrawer">
   <div id="_sidebar" class="sidebar">
-    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
+    <!-- sidebar background 사진 바꾸는 곳 url(경로) -->
+    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url(/assets/img/main_left.JPG)">
+    </div>
     <header class="sidebar-sticky" role="banner">
       <br/>
 
@@ -9,15 +11,26 @@
         <h1><a id="_title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         {{ site.tagline | truncatewords:50 | markdownify }}
       </div>
+
+      <!-- sidebar의 자기 사진 넣기 -->
+      <!-- 바꾸려면, author.picture의 img url 주소 바꾸기 -->
       <div class='sidebar-box'>
         {% if author.picture %}
-        {% include srcset-img.html class="avatar" img=author.picture alt=author.name %}
+          {% include srcset-img.html class="avatar" img=author.picture alt=author.name %}
         {% endif %}
       </div>
+      
       {{ site.description | truncatewords:50 | markdownify }}
       {% assign author = site.data.authors.first[1] %}
       {% if author.social %}
-
+      <form action="/search">
+        <div class="tipue_search_left">
+          <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+        </div>
+        <div class="tipue_search_right">
+          <input type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required></div>
+        <div style="clear: both;"></div>
+      </form>
       <br/>
       <br/>
       <nav class="sidebar-nav heading" role="navigation">
