@@ -2,23 +2,23 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Pelto의 블로그
+title:               pellto의 블로그
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://Pel-to.github.io
+url:                 https://pellto.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
 baseurl:             ""
 
 # A very short description of your page
-tagline:             "Pelto 블로그"
+tagline:             "pellto 블로그"
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Pelto 블로그입니다.
+  pellto 블로그입니다.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -51,7 +51,7 @@ disqus: True
 disqus_shortname:    xxxx
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2021.03. by Pelto'
+copyright:           '&copy; 2021.03. by pellto'
 
 # Format of the permalinks
 permalink:           
