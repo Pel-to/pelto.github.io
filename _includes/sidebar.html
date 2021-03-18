@@ -7,7 +7,7 @@
       <br/>
 
       <div class="sidebar-about">
-        
+
         <h1><a id="_title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         {{ site.tagline | truncatewords:50 | markdownify }}
       </div>
@@ -19,7 +19,7 @@
           {% include srcset-img.html class="avatar" img=author.picture alt=author.name %}
         {% endif %}
       </div>
-      
+
       {{ site.description | truncatewords:50 | markdownify }}
       {% assign author = site.data.authors.first[1] %}
       {% if author.social %}
@@ -32,6 +32,13 @@
         <div style="clear: both;"></div>
       </form>
       <br/>
+
+      <div style="text-align: center;">
+        <a href="">
+          <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpellto.github.io&count_bg=%237DCCFF&title_bg=%23686868&icon=exercism.svg&icon_color=%23FFFFFF&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=false"/>
+        </a>
+      </div>
+
       <br/>
       <nav class="sidebar-nav heading" role="navigation">
         {% include nav.html %}
@@ -39,7 +46,7 @@
     <br/>
 
     <br/>
-    
+
         <div class="sidebar-social">
           {% include social.html social=author.social %}
         </div>
