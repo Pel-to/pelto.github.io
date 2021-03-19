@@ -8,11 +8,8 @@ pellto:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
+    AI, Security 에 관심이 있고, Blog를 하면서 처음으로 Web 프로젝트를 해봅니다.
+    궁금하신점이나, 같이 논의하는 시간을 가지면 좋겠습니다.
 
   # This photo will be used in the about section
   picture:
