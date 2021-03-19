@@ -1,0 +1,107 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "HaHoon Jeon"
+  label: "Programmer"
+  picture: "/assets/img/resume_240x240.jpg"
+  email: "lovegkgns@gmail.com"
+  phone: ""
+  website: "https://pellto.github.io"
+  summary: >
+    자세한 내용은 [About]!!/about/
+  location:
+    address: "3, Sadang-ro 20da-gil"
+    postalCode: "07011"
+    city: "DongJak-gu"
+    countryCode: "KR"
+    region: "Seoul"
+  profiles:
+    - network: "GitHub"
+      username: "Pellto"
+      url: "https://github.com/pellto"
+    - network: "LinkedIn"
+      username: "Pellto"
+      url: ""
+work:
+  - company: "Pied Piper"
+    position: "CEO/President"
+    website: "https://piedpiper.com"
+    startDate: "2013-12-01"
+    endDate: ""
+    summary: >
+      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
+      consistently fielded high Weisman Scores™ that are not merely competitive,
+      but approach the theoretical limit of lossless compression.
+    highlights:
+      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+      - "Successfully won Techcrunch Disrupt"
+      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+# volunteer:
+#   - organization: "CoderDojo"
+#     position: "Teacher"
+#     website: "https://coderdojo.com/"
+#     startDate: "2012-01-01"
+#     endDate: "2013-01-01"
+#     summary: "Global movement of free coding clubs for young people."
+#     highlights:
+#       - "Awarded 'Teacher of the Month'"
+education:
+  - institution: "University of Kookmin"
+    area: "Software Engineering"
+    studyType: "Bachelor"
+    startDate: "2017-03-01"
+    endDate: "2021-02-28"
+    gpa: "3.44"
+    courses:
+      - "DataBase - Basic SQL"
+      - "BigData - Distribution Computing Intruduction"
+      - "Graphics - Visual Computing Intruduction"
+      - "Artificial Intelligence - AI Intruduction"
+      - "Artificial Intelligence - CS231n"
+      - "Artificial Intelligence - CS224n"
+awards:
+  - title: "Digital Compression Pioneer Award"
+    date: "2014-11-01"
+    awarder: "Techcrunch"
+    summary: "/about/#awards"
+publications:
+  - name: "Video compression for 3d media"
+    publisher: "Hooli"
+    releaseDate: "2014-10-01"
+    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+skills:
+  - name: "Web Development"
+    level: "Beginner"
+    keywords:
+      - "HTML"
+      - "CSS"
+      - "Javascript"
+  - name: "Security"
+    level: "Amateur"
+    keywords:
+      - "Network"
+      - "PE"
+      - "Data Leakage"
+  - name: "AI"
+    level: "Intermediate"
+    keywords:
+      - "Neural Network"
+      - "Anomaly Detection"
+      - "Pytorch"
+languages:
+  - language: "Korean"
+    fluency: "Native speaker"
+  - language: "English"
+    fluency: "Elementary proficiency"
+interests:
+  - name: "Wildlife"
+    keywords:
+      - "Ferrets"
+      - "Unicorns"
+references:
+  - name: "Erlich Bachman"
+    reference: >
+      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+      Company proved that he will be a valuable addition to any company.
