@@ -45,7 +45,7 @@ author:
   email:               lovegkgns@gmail.com
   picture:            /assets/img/blog_profile.jpg
   about:  |
-    HI, my name is은 Pellto
+    Pellto
 
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -58,6 +58,8 @@ menu:
     url:               /blog/trip/
   - title:             Study
     url:               /blog/study/
+  - title:             AI
+    url:               /blog/AI/
   - title:             ALL Doc
     url:               /blog/
   - title:             Projects

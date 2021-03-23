@@ -9,10 +9,8 @@ basics:
   phone: ""
   website: "https://pellto.github.io"
   summary: >
-    자세한 내용은 [About]!!/about/
+    자세한 내용은 "About"에 있습니다.
   location:
-    address: "3, Sadang-ro 20da-gil"
-    postalCode: "07011"
     city: "DongJak-gu"
     countryCode: "KR"
     region: "Seoul"
@@ -23,20 +21,20 @@ basics:
     - network: "LinkedIn"
       username: "Pellto"
       url: ""
-work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
-    summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
-    highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+# work:
+#   - company: "Pied Piper"
+#     position: "CEO/President"
+#     website: "https://piedpiper.com"
+#     startDate: "2013-12-01"
+#     endDate: ""
+#     summary: >
+#       Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
+#       consistently fielded high Weisman Scores™ that are not merely competitive,
+#       but approach the theoretical limit of lossless compression.
+#     highlights:
+#       - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+#       - "Successfully won Techcrunch Disrupt"
+#       - "Optimized an algorithm that holds the current world record for Weisman Scores"
 # volunteer:
 #   - organization: "CoderDojo"
 #     position: "Teacher"
@@ -61,10 +59,27 @@ education:
       - "Artificial Intelligence - CS231n"
       - "Artificial Intelligence - CS224n"
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "/about/#awards"
+  - title: "GRAND PRIZE"
+    date: "2020-11-26"
+    awarder: "K-Cyber Security Challenge 악성코드 탐지 부문 Final"
+    summary: ""
+  - title: "FIRST PLACE"
+    date: "2020-10-24"
+    awarder: "K-Cyber Security Challenge 악성코드 탐지 부문 Regional Qualification"
+    summary: ""
+  - title: "ENCOURAGEMENT AWARD"
+    date: "2020-09-29"
+    awarder: "산업제어시스템 보안위협 탐지 AI 경진대회 2020"
+    summary: ""
+  - title: "GRAND PRIZE"
+    date: "2020-07-31"
+    awarder: "사이버안보 논문공모전 2020"
+    summary: ""
+  - title: "ENCOURAGEMENT AWARD"
+    date: "2019-11-26"
+    awarder: "K-Cyber Security Challenge AI기반 네트워크 위협 탐지 부문"
+    summary: ""
+
 publications:
   - name: "Finding a Critical file from a packet"
     publisher: "HaHoon Jeon"
