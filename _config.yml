@@ -60,6 +60,8 @@ menu:
     url:               /blog/study/
   - title:             AI
     url:               /blog/ai/
+  - title:             Node
+    url:               /blog/node/
   - title:             ALL Doc
     url:               /blog/
   - title:             Projects
