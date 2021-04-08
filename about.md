@@ -24,7 +24,7 @@ font-weight:bold">
 
 > 연락처: lovegkgns@gmail.com
 
-> Github : <a href="https://github.com/pel-to">https://github.com/pel-to</a>
+> Github : <a href="https://github.com/pellto">https://github.com/pellto</a>
 
 
 ## Education
@@ -158,7 +158,7 @@ font-weight:bold">
 ## TECH. SKILL
 ---
 - Programming Laguage
-    + C(Intermediate), C++(High), Css(Basic), STL(Basic), Java(Intermediate), JavaScript(Basic), Python(High), Go(Basic)
+    + C(basic), C++(Intermediate), Css(Basic), STL(Basic), Java(Intermediate), JavaScript(Basic), Python(High), Go(Basic)
 
 - Development Tools: MS Visual Studio, MS VS Code, Pycharm, IntelliJ, Eclipse, Jupyter Notebook
 
