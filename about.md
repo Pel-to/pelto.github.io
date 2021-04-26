@@ -136,7 +136,7 @@ font-weight:bold">
 ><strong>K-Cyber Security Challenge AI기반 네트워크 위협 탐지 부문 2019</strong>
 >- [ENCOURAGEMENT AWARD]
 
-## Work Experiences
+<!-- ## Work Experiences
 ---
 - 보안 빅데이터 자동 분석을 위한 실시간 유사도 측정 원천 기술 연구
     + [2020.01 ~ 현재]
@@ -152,7 +152,7 @@ font-weight:bold">
 
 - Security Analytics 기반의 이기종 보안솔루션 위협 분석 및 대응 기술 개발
     + [2019.11 ~ 2019.12]
-    + Kookmin Univ. – MSIT
+    + Kookmin Univ. – MSIT -->
 
 
 ## TECH. SKILL
